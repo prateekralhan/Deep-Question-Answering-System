@@ -16,7 +16,7 @@ A simple Q&A webapp to process text built using RoBerTa Model from Huggingface T
 streamlit run app.py
 ```
 3. Navigate to http://localhost:8501 in your web-browser.
-4. By default, streamlit allows us to upload files of **max. 200MB**. If you want to have more size for uploading audio files, execute the command :
+4. By default, streamlit allows us to upload files of **max. 200MB**. If you want to have more size for uploading documents, execute the command :
 ```
 streamlit run app.py --server.maxUploadSize=1028
 ```
